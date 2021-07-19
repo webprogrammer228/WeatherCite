@@ -1,0 +1,40 @@
+.weatherBlock {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 2px 2px 2px 2px #cccc;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-image: url("https://cdn.weatherapi.com/weather-widget/img/weatherapi-backgrounds/4_widget3.png");
+  overflow: hidden;
+  color: white;
+}
+.card > div {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.top-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.icon img {
+  max-width: 100%;
+  transform: scale(2);
+  margin: 30px 30px 0 15px;
+}
+
+.city {
+  line-height: .7;
+}
+
+.temperature {
+  line-height: 1;
+  text-align: right;
+}
